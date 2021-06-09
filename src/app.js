@@ -5,7 +5,7 @@ const app = express()
 
 
 //settings 
-app.set('port', config.port || 3000)
+app.set('port', config.port)
 
 
 
