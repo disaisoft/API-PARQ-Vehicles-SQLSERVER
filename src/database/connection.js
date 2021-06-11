@@ -1,4 +1,4 @@
-import sql from 'mssql'
+import sql from 'mssql';
 
 const dbsettings = {
     user: 'dave',
@@ -11,7 +11,7 @@ const dbsettings = {
     },
 }
 
-async function getConnetion() {
+export async function getConnetion() {
     try {
         const pool = await sql.connect(dbsettings);
         return pool;
@@ -19,5 +19,3 @@ async function getConnetion() {
         console.log(error);
     }
 }
-
-getConnetion();

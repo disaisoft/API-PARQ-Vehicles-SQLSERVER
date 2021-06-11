@@ -1,0 +1,13 @@
+@api = http://localhost:3000/vehicles
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type:  application/json
+
+{ 
+    "tipo_vehiculo": "carrazo",
+    "placa": "LAM345",
+    "tarifa": "200"
+}
