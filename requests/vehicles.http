@@ -11,3 +11,9 @@ Content-Type:  application/json
     "placa": "LAM345",
     "tarifa": "200"
 }
+
+{ 
+    "tipo_vehiculo": "motaza",
+    "placa": "MOT345",
+    "tarifa": "200"
+}
