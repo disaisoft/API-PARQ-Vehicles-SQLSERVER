@@ -7,7 +7,7 @@ POST {{api}}
 Content-Type:  application/json
 
 { 
-    "tipo_vehiculo": "motocarro",
-    "placa": "MTB985",
-    "tarifa": "100"
+    "tipo_vehiculo": "carrito",
+    "placa": "CRA123",
+    "tarifa": "200"
 }

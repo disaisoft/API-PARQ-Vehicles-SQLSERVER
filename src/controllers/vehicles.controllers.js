@@ -22,9 +22,9 @@ export const createNewVehicles =  async ( req, res) => {
     const pool = await get.getConnetion();
     
     await pool.request().input("tipo_vehiculo", sql.VarChar, "VEHICLE TEST").
-    query('INSERT INTO vehicles_ (tipo_vehiculo) VALUES (@tipo_vehiculo)');
+    query('INSERT INTO vehicles_ (tipo_vehiculo, placa, tarifa) VALUES (@tipo_vehiculo)');
 
-    console.log(tipo_vehiculo, placa, tarifa, quantity)
+   
 
     res.json('New Vehicle!!!')
 }

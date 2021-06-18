@@ -17,4 +17,4 @@ app.use(vehiclesRoutes)
 
 
 
-export default app
+export default app;
